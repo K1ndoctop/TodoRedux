@@ -1,0 +1,22 @@
+.list{
+    list-style: none;
+}
+
+.list__item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 15%;
+    margin-top: 5px;
+}
+
+.completed{
+    color: green;
+    text-decoration: line-through;
+}
+
+.undone{
+    color: red;
+}
